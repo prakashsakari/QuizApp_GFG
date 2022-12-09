@@ -1,0 +1,41 @@
+.container{
+    width: 20rem;
+    height: 33rem;
+    background-color: var(--primary-color);
+    border-radius: 4px;
+    padding: 1rem;
+    justify-content: flex-start;
+    gap: 1rem;
+}
+
+.img-box {
+    width: 17rem;
+    height: 17rem;
+    object-fit: cover;
+}
+
+.img {
+    width: 100%;
+    height: 100%;
+    border-radius: 4px;
+}
+
+.details {
+    color: var(--text-color-primary);
+}
+
+.title {
+    margin: 1rem;
+}
+
+.button {
+    padding: .875rem .5rem;
+}
+
+.play-now-btn {
+    background-color: var(--bg-color);
+}
+
+
+
+

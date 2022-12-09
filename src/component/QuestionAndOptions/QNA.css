@@ -1,0 +1,71 @@
+.qns-main {
+    margin: 3rem 0 1rem 0;
+  }
+  
+  .question-dialog {
+    width: 40vw;
+    color: var(--text-color-primary);
+    background-color: var(--primary-color);
+    border-radius: 4px;
+    padding: 1rem 2rem;
+  }
+  
+  .qsn-title {
+    margin: 1rem 0;
+  }
+  
+  .qsn_scr {
+    display: flex;
+    padding: 0 2rem;
+  }
+  
+  .score {
+    margin-left: auto;
+  }
+  
+  .question {
+    padding: 1rem 2rem 0 2rem;
+  }
+  
+  .options-box {
+    padding: 1rem 2rem;
+  }
+  
+  .option {
+    margin: 1rem 0;
+    padding: 1rem 0;
+    background-color: var(--bg-color);
+    color: var(--text-color-primary);
+    border-radius: 2rem;
+    width: 100%;
+  }
+  
+  .option:hover {
+    cursor: pointer;
+  }
+  
+  .nxt-btn-container {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .nxt-qstn {
+    width: max-content;
+  }
+  
+  .success {
+    background-color: var(--green-badge);
+    color: var(--text-color-primary);
+    border: none;
+  }
+  
+  .error {
+    background-color: var(--red-badge);
+    color: var(--text-color-primary);
+    border: none;
+  }
+  
+  .opacity {
+    cursor: default;
+  }
+  

@@ -1,0 +1,131 @@
+.d-grid {
+    margin: 7rem 0 1rem 0;
+    display: grid;
+    place-content: center center;
+}
+
+.login-auth {
+  width: 33rem;
+  background-color: var(--primary-color);
+  color: var(--text-color-primary);
+  padding: 1rem 2rem;
+  border-radius: 4px;
+}
+
+.auth-title {
+  margin: 1rem 0;
+  text-align: center;
+}
+
+.form-input {
+  width: 100%;
+  margin: 4px 0;
+  font-size: 1rem;
+  border: 1px solid var(--primary-color);
+  border-radius: 4px;
+  color: var(--primary-color);;
+}
+
+.form-input:focus {
+  outline: 1px solid var(--primary-color);;
+}
+  
+.form-label {
+  padding: 0;
+  text-decoration: none;
+  color: var(--text-color-primary);
+}
+
+.form-container {
+  margin: 1rem 0;
+}
+
+.label-remember {
+  font-size: 1rem;
+  color: var(--text-color-primary);
+}
+
+.forgot-pass {
+  font-size: 1rem;
+  margin-left: auto;
+}
+
+.check-box {
+  height: 1rem;
+  width: 1rem;
+  margin-right: 8px;
+}
+
+.login-btn {
+  width: 100%;
+  background-color: var(--bg-color);
+  color: var(--text-color-primary);
+}
+
+.padding-small {
+  padding: .5rem 0;
+}
+
+.create-account {
+  margin: 1rem 0;
+}
+
+.new-account {
+  font-weight: 700;
+  font-size: 1.5rem;
+}
+
+.flex-row {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+}
+
+.create-acc {
+  text-decoration: none;
+  color: var(--text-color-primary);
+}
+
+.pwd-icon-position {
+  top: 2rem;
+  right: 0.5rem;
+}
+
+.pass-check-text {
+  display: flex;
+  flex-direction: column;
+  background-color: var(--secondary-color);
+  color: var(--text-color-primary);
+  width: max-content;
+  padding: 8px;
+  border-radius: 4px;
+}
+
+.display-n {
+  display: none;
+}
+
+.sign-up-btn[disabled]:hover {
+  cursor: none;
+  background-color: var(--primary-color);
+  color: var(--text-color-primary);
+}
+
+.check-box {
+  width: 1.125rem;
+  height: 1.125rem;
+}
+
+.btn-outline-primary {
+  color: var(--text-color-primary);
+  background-color: transparent;
+  border: 1px solid var(--bg-color);
+  cursor: pointer;
+}
+
+.btn-outline-primary:hover {
+  color: var(--background-color);
+  background-color: var(--bg-color);
+  cursor: pointer;
+}
